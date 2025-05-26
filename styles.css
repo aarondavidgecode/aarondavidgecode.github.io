@@ -380,6 +380,13 @@ body {
     color: white;
     animation: float 6s ease-in-out infinite;
 }
+.avatar-circle img {
+  width: 275px;
+  height: 275px;
+  object-fit: cover;
+  border-radius: 50%;
+
+}
 
 @media (max-width: 768px) {
     .avatar-circle {
